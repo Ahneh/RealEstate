@@ -15,51 +15,47 @@ body{
     
 }
 header{
+    width: 100%;
+}
+.header-bg{
     background-image: url("../img/header-bg.png");
-    /* background-size: 1920px 850px; */
-    background-position: center;    
-    overflow: hidden;
-    display: block;
+    background-position: center;
+    background-color: #1a0c47;
     height: 100vh;
     background-size: cover;
 }
-.header-font-stile{
-    color: #ffffff;
-    font-family: Montserrat;
-    font-weight: bold;
+.header-block{
+    
+    /* background-size: 1920px 850px; */
+    height: 100vh;
+    
     
 }
+
 .navbar-light .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
-.header-navigation{    
-    align-items: baseline;
-    flex: 1;
+.header-navigation{
     margin-top: 18px;
 }
-.header-nav-text a{   
-    color: #ffffff !important; 
-    font-family: Montserrat;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 0;
-}
+
 .header-nav {
 	justify-content: space-around;
 	flex: 1;
 	margin: 0px 28px 0 8px;
 }
-div.header-navigation li:hover > ul{
-    display: block;
-}
+
 .navbar-right{
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     
 }
-.header{
-    display: flex;
+.navbar{
+    align-items: baseline;
+    width: 100%;
 }
+
 .header h1{    
     font-size: 50px;
 }
@@ -77,13 +73,9 @@ div.header-navigation li:hover > ul{
 }
 .phone{    
     font-size: 14px;
-    justify-content: end;
-    display: flex;
+   
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-}
+
 nav a {    
     font-size: 14px; 
     padding-left: 20px;   
@@ -92,21 +84,32 @@ nav a {
 
 .header-text{    
     text-align: center;
-    margin-top: 200px;
+    align-items: center;
+    height: 100%;
         
 }
 .header-text h1 {
-	font-size: 50px;
+    font-size: 50px;
+    font-family: Montserrat;
+    color: #f5f5f6;
 	font-weight: bold;
 	max-width: 740px;
 	margin: 0 auto;
 }
-.header-text span {	
+.header-text-span {	
+    font-family: Lato;
+    color: #f5f5f6;
+    font-size: 16px;
 	max-width: 500px;
 	margin: 26px auto 6px auto;
 }
 .header-nav-button {	
 	border: 2px solid rgb(158, 152, 178, 0.6)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
 }
 
 .from-btn{
@@ -118,6 +121,9 @@ nav a {
     font-family: Montserrat;
     font-weight: bold;
     border: none;
+}
+.header-button{
+    justify-content: center;
 }
 .header-text .from-btn{
     margin-top: 50px;    
@@ -531,24 +537,23 @@ footer img{
         flex-direction: row-reverse;
     }
     .logo {flex:1;}
-    .navbar-collapse{
+    .navbar-collapse {
         position: absolute;
-        top: 50px;
+        top: 54px;
         left: 0px;
         right: 0px;
-        background: rgba(24,22,59, 0.6);
+        background: rgba(24,22,59,0.9);
+        z-index: 2;
     }
     .navbar-right {
         flex-direction: row-reverse;
         align-items: center;
     }
-    .header-text {
-        margin-top: 164px;
-    }
+    
     .header-text h1 {
         line-height: 1;
     }
-    .header-text span {
+    .header-text-span {
         margin-top: 38px;
         
     }
@@ -565,6 +570,7 @@ footer img{
         margin-left: 46px;
 
         margin-right: 4px;
+        max-width: 54px;
     }
     nav{
         display: flex;
@@ -771,10 +777,8 @@ footer img{
         font-size: 30px;  
         line-height: 1.2;      
     }
-    .header-text {
-        margin-top: 102px;
-    }
-    .header-text span {
+    
+    .header-text-span {
         margin-top: 30px;
     }
     .header-text .from-btn {

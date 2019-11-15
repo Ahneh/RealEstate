@@ -8,31 +8,24 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
     <title>Reale state</title>
 </head>
 
 <body>
 
-    <header>
 
-        <div class="container ">
-            <div class="row header header-font-stile">
-                <div class="col-xl-12 col-lg-12 col-xs-12 header-navigation">
-                    <div class="row">
-                        <nav class="navbar navbar-expand-xl navbar-light header-navigation no-padding">
-                            <div class="col-xl-4 col-lg-4 col-xs-12 navbar-brand logo no-padding no-margin text-uppercase header-font-stile">
+    <div class="header-bg">
+        <div class="container header-block">
+            <div class="row">
+                <header>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 header-navigation">
+                        <div class="row">
+                        <nav class="navbar navbar-expand-xl navbar-light  no-padding">
+                            <div class="col-xl-4 col-md-4 col-lg-auto col-xs-12 navbar-brand logo no-padding no-margin text-uppercase">
                                 <span> sky realestate</span>
                             </div>
-                            <div class="col-xl-8 col-lg-8 col-xs-12 no-padding navbar-right">
+                            <div class="col-xl-8 col-md-8 col-lg-auto col-xs-12 no-padding navbar-right">
                                 <button class="navbar-toggler col-xl-auto col-lg-auto header-nav-button" type="button"
                                     data-toggle="collapse" data-target="#navbarNavAltMarkup"
                                     aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -41,42 +34,48 @@
                                 </button>
                                 <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
                                     <ul class="navbar-nav header-nav-text header-nav">
-                                        <li><a class="nav-item nav-link" href="#">About us</a></li>
-                                        <li><a class="nav-item nav-link" href="#">Process</a></li>
-                                        <li><a class="nav-item nav-link" href="#">Our works</a></li>
-                                        <li><a class="nav-item nav-link" href="#">Reviews</a></li>
-                                        <li><a class="nav-item nav-link" href="#">Clients</a></li>
-                                        <li><a class="nav-item nav-link" href="#">Contacts</a></li>
+                                        <li><a class="nav-item nav-link" href="#AboutUs">About us</a></li>
+                                        <li><a class="nav-item nav-link" href="#Process">Process</a></li>
+                                        <li><a class="nav-item nav-link" href="#OurWorks">Our works</a></li>
+                                        <li><a class="nav-item nav-link" href="#Reviews">Reviews</a></li>
+                                        <li><a class="nav-item nav-link" href="#Clients">Clients</a></li>
+                                        <li><a class="nav-item nav-link" href="#Contacts">Contacts</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-xl-auto col-lg-auto phone no-padding">
+                                <div class="col-auto phone no-padding">
                                     <a href="tel:+380679009922">+38 (067) 900-99-22</a>
                                 </div>
                             </div>
                         </nav>
                     </div>
-                </div>
-
-                <div class="col-xl-12 col-lg-12 col-xs-12 header-text">
+                    </div>
+                </header>
+            </div>
+            <div class="row  header-text">
+                <div class="col-12">
                     <h1>Lorem ipsum dolor stit amet consectet</h1>
-                    <span>
-                        Lorem ipsum dolor amet consectetur eiusmod tempor incididunt labore et dolore magna minim veniam
-                    </span>
-
-                    <button class="btn btn-primary from-btn ">Request a call</button>
+                    <div class="header-text-span">
+                        <span>
+                            Lorem ipsum dolor amet consectetur eiusmod tempor incididunt labore et dolore magna minim
+                            veniam
+                        </span>
+                    </div>
+                    <div class="row header-button">
+                        <button class="btn btn-primary from-btn ">Request a call</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <!-- AboutUs -->
 
     <div class="AboutUs-bg">
-        <div class="container no-padding">
+        <div class="container no-padding" id="AboutUs">
             <div class="row AboutUs no-margin">
-                <div class="col-xl-6 col-lg-6 AboutUs-img-block no-padding">
+                <div class="col-xl-6 col-md-6 col-lg-6 AboutUs-img-block no-padding">
                     <img src="img/sean-pollock-PhYq704ffdA-unsplash.jpg" alt="">
                 </div>
-                <div class="col-xl-5 col-lg-5 no-padding AboutUs-block-text">
+                <div class="col-xl-5 col-md-5 col-lg-5 no-padding AboutUs-block-text">
 
                     <h2>About us</h2>
 
@@ -100,7 +99,7 @@
 
     <!-- Our Working Process -->
     <div class="OurWorkingProcess-bg">
-        <div class="container no-padding">
+        <div class="container no-padding" id="Process">
             <div class="row OurWorkingProcess no-margin">
                 <div class="col OurWorkingProcess-text">
                     <h2>
@@ -112,19 +111,19 @@
                 <div class="col">
                     <div class="row ourworking-imgs no-padding">
 
-                        <div class="col-xl-3 col-lg-3 col-xs-3 block-call">
+                        <div class="col-xl-3 col-md-3 col-lg-3 col-xs-3 block-call">
                             <img src="img/phone-line.png" alt="">
                             <p>call</p>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-xs-3 block-measure">
+                        <div class="col-xl-3 col-md-3 col-lg-3 col-xs-3 block-measure">
                             <img src="img/pencil-ruler-line(1).png" alt="">
                             <p>measure</p>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-xs-3 block-plan">
+                        <div class="col-xl-3 col-md-3 col-lg-3 col-xs-3 block-plan">
                             <img src="img/file-list-3-line.png" alt="">
                             <p>plan</p>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-xs-3 block-work">
+                        <div class="col-xl-3 col-md-3 col-lg-3 col-xs-3 block-work">
                             <img src="img/building-line.png" alt="">
                             <p>work</p>
                         </div>
@@ -137,7 +136,7 @@
     <!-- OurWorks -->
 
     <div class="ourworks-bg">
-        <div class="container no-padding">
+        <div class="container no-padding" id="OurWorks">
             <div class="row OurWorks no-margin">
                 <div class="cal OurWorks-text">
                     <h2>Our works</h2>
@@ -146,16 +145,16 @@
 
                 <div class="col container-img no-padding">
                     <div class="row img-block no-gutters">
-                        <div class="col-xl-6 col-lg-6 col-xs-12 img-content ">
+                        <div class="col-xl-6 col-md-6 col-lg-6 col-xs-12 img-content ">
                             <img src="img/verne-ho-0LAJfSNa-xQ-unsplash.jpg" alt="">
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-xs-12 img-content ">
+                        <div class="col-xl-6 col-md-6 col-lg-6 col-xs-12 img-content ">
                             <img src="img/matthew-kwong-i8W7bBNVVdg-unsplash.jpg" alt="">
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-xs-12 img-content ">
+                        <div class="col-xl-6 col-md-6 col-lg-6 col-xs-12 img-content ">
                             <img src="img/chris-barbalis-IQMG9KbT4yE-unsplash.jpg" alt="">
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-xs-12 img-content ">
+                        <div class="col-xl-6 col-md-6 col-lg-6 col-xs-12 img-content ">
                             <img src="img/larissa-bh0pGVGsxPQ-unsplash.jpg" alt="">
                         </div>
                     </div>
@@ -168,7 +167,7 @@
     <div class="Reviews-bg ">
 
 
-        <div class="container ">
+        <div class="container " id="Reviews">
             <div class="row Reviews ">
                 <div class="col Reviews-text ">
                     <div>
@@ -258,37 +257,37 @@
 
     <!-- Clients -->
     <div class="Clients-bg">
-        <div class="container no-padding">
+        <div class="container no-padding" id="Clients">
             <div class="row Clients no-gutters">
                 <div class="col Clients-text">
                     <h2>Clients</h2>
                 </div>
                 <div class="col Clients-main-block no-gutters">
                     <div class="row Clients-block no-gutters">
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/MSFT_logo_png.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/Samsung-logo-2015-Nobg.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/ibm_logo.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/Google_2015_logo.svg.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/MSFT_logo_png.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/Samsung-logo-2015-Nobg.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/ibm_logo.png" alt="">
                         </div>
-                        <div class="col-xl-3 col-xs-6 Clients-img-block no-gutters">
+                        <div class="col-xl-3 col-md-3 col-xs-6 Clients-img-block no-gutters">
                             <img src="img/Google_2015_logo.svg.png" alt="">
-                        </div>                       
+                        </div>
 
                     </div>
 
@@ -300,7 +299,7 @@
     <!-- Contacts -->
 
     <div class="Contacts-bg">
-        <div class="container ">
+        <div class="container " id="Contacts">
             <div class="row Contacts ">
                 <div class="col-* Contacts-text no-gutters">
                     <h2>Contacts</h2>
@@ -313,10 +312,10 @@
                                 <div class="form-group-text">
                                     <span>Leave a message</span>
                                 </div>
-                                <input type="name" class="form-control" required  placeholder="Name*">
-                                <input type="email" class="form-control" required  placeholder="Email*">
-                                <input type="phone" class="form-control" required  placeholder="Phone*">
-                                <textarea class="form-control" required  placeholder="Message*"></textarea>
+                                <input type="name" class="form-control" required placeholder="Name*">
+                                <input type="email" class="form-control" required placeholder="Email*">
+                                <input type="phone" class="form-control" required placeholder="Phone*">
+                                <textarea class="form-control" required placeholder="Message*"></textarea>
                                 <button class="btn btn-primary from-btn ">Send</button>
                             </div>
                         </div>
@@ -365,37 +364,41 @@
                 <div class="row no-gutters">
                     <div class="col-xl-12 col-lg-12  ">
                         <div class="row footer-navigation">
-                        <div class="col-xl-4 col-lg-3 footer-logo no-padding text-uppercase">
-                            <span>sky realestate</span>
-                        </div>
-                        <div class="col-xl-6 col-lg-7 footer-nav-block no-padding">
-                            
+                            <div class="col-xl-4 col-md-3 col-lg-3 footer-logo no-padding text-uppercase">
+                                <span>sky realestate</span>
+                            </div>
+                            <div class="col-xl-6 col-md-6 col-lg-7 footer-nav-block no-padding">
+
                                 <ul class="navbar-nav footer-nav">
-                                    <li><a class="nav-item nav-link footer-nav-text" href="#">About us</a></li>
-                                    <li><a class="nav-item nav-link footer-nav-text" href="#">Process</a></li>
-                                    <li><a class="nav-item nav-link footer-nav-text" href="#">Our works</a></li>
-                                    <li><a class="nav-item nav-link footer-nav-text" href="#">Reviews</a></li>
-                                    <li><a class="nav-item nav-link footer-nav-text" href="#">Clients</a></li>
-                                    <li><a class="nav-item nav-link footer-nav-text" href="#">Contacts</a></li>
+                                    <li><a class="nav-item nav-link footer-nav-text" href="#AboutUs">About us</a></li>
+                                    <li><a class="nav-item nav-link footer-nav-text" href="#Process">Process</a></li>
+                                    <li><a class="nav-item nav-link footer-nav-text" href="#OurWorks">Our works</a></li>
+                                    <li><a class="nav-item nav-link footer-nav-text" href="#Reviews">Reviews</a></li>
+                                    <li><a class="nav-item nav-link footer-nav-text" href="#Clients">Clients</a></li>
+                                    <li><a class="nav-item nav-link footer-nav-text" href="#Contacts">Contacts</a></li>
                                 </ul>
-                        
+
+                            </div>
+                            <div class="col-xl-2 col-md-2 col-lg-2 footer-img-block ">
+
+
+                                <a href="https://www.facebook.com/" target="_blank"> <img src="img/facebook-fill.png"
+                                        alt=""></a>
+
+
+                                <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagram-fill.png"
+                                        alt=""></a>
+
+
+                                <a href="https://twitter.com/" target="_blank"> <img src="img/twitter-fill.png"
+                                        alt=""></a>
+
+                                <a href="https://www.linkedin.com/" target="_blank"> <img src="img/linkedin-fill.png"
+                                        alt=""></a>
+
+
+                            </div>
                         </div>
-                        <div class="col-xl-2 col-lg-2 footer-img-block ">
-
-
-                           <a href="https://www.facebook.com/" target="_blank"> <img src="img/facebook-fill.png" alt=""></a>
-
-
-                           <a href="https://www.instagram.com/" target="_blank"> <img src="img/instagram-fill.png" alt=""></a>
-
-
-                           <a href="https://twitter.com/" target="_blank"> <img src="img/twitter-fill.png" alt=""></a>
-
-                           <a href="https://www.linkedin.com/" target="_blank"> <img src="img/linkedin-fill.png" alt=""></a>
-
-
-                        </div>
-                    </div>
                     </div>
                 </div>
             </div>
@@ -409,7 +412,15 @@
         </div>
     </footer>
 
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <script>
         window.addEventListener("resize", setup_for_width);
 
