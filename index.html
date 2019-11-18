@@ -70,12 +70,12 @@
     <!-- AboutUs -->
 
     <div class="AboutUs-bg">
-        <div class="container no-padding" id="AboutUs">
-            <div class="row AboutUs no-margin">
-                <div class="col-xl-6 col-md-6 col-lg-6 AboutUs-img-block no-padding">
+        <div class="container" id="AboutUs">
+            <div class="row AboutUs">
+                <div class="col-xl-6 col-sm-12 col-xs-12  col-md-6 col-lg-6 AboutUs-img-block">
                     <img src="img/sean-pollock-PhYq704ffdA-unsplash.jpg" alt="">
                 </div>
-                <div class="col-xl-5 col-md-5 col-lg-5 no-padding AboutUs-block-text">
+                <div class="col-xl-5 col-sm-12 col-xs-12 col-md-5 col-lg-5  AboutUs-block-text">
 
                     <h2>About us</h2>
 
@@ -99,8 +99,8 @@
 
     <!-- Our Working Process -->
     <div class="OurWorkingProcess-bg">
-        <div class="container no-padding" id="Process">
-            <div class="row OurWorkingProcess no-margin">
+        <div class="container " id="Process">
+            <div class="row OurWorkingProcess ">
                 <div class="col OurWorkingProcess-text">
                     <h2>
                         Our Working Process
@@ -109,7 +109,7 @@
 
                 </div>
                 <div class="col">
-                    <div class="row ourworking-imgs no-padding">
+                    <div class="row ourworking-imgs ">
 
                         <div class="col-xl-3 col-md-3 col-lg-3 col-xs-3 block-call">
                             <img src="img/phone-line.png" alt="">
@@ -207,6 +207,12 @@
                                     </span>
                                 </div>
                             </div>
+                            <div class="slider-navigation">
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                                    onclick="currentDiv(1)"></span>
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                                    onclick="currentDiv(2)"></span>
+                            </div>
                         </div>
 
                         <div class="col-xl-5 mr-auto col-md-5 right-block no-gutters slide">
@@ -240,13 +246,14 @@
                                     </span>
                                 </div>
                             </div>
+                            <div class="slider-navigation">
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                                    onclick="currentDiv(1)"></span>
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white"
+                                    onclick="currentDiv(2)"></span>
+                            </div>
                         </div>
-                        <div class="slider-navigation">
-                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white"
-                                onclick="currentDiv(1)"></span>
-                            <span class="w3-badge demo w3-border w3-transparent w3-hover-white"
-                                onclick="currentDiv(2)"></span>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -319,9 +326,9 @@
                                 <button class="btn btn-primary from-btn ">Send</button>
                             </div>
                         </div>
-                        <div class="col-xl-6 col-md-6 col-xs-12">
-                            <div class="row Contacts-content-block-2">
-                                <div class="col form-control-right">
+                        <div class="col-xl-6 col-md-6 col-xs-12 Contacts-content-block-2">
+                            <div class="row contacts-right-block">
+                                <div class="col-12 form-control-right">
                                     <div class="right-header">
                                         <h3>Address</h3>
                                     </div>
@@ -330,7 +337,7 @@
                                             Block SE(A), Gulshan-1, Dhaka 1212.</span>
                                     </div>
                                 </div>
-                                <div class="col form-control-right">
+                                <div class="col-12 form-control-right">
                                     <div class="right-header">
                                         <h3>Phone</h3>
                                     </div>
@@ -339,7 +346,7 @@
                                         <p><a href="tel:+8801914486969">+880 191 448 6969</a></p>
                                     </div>
                                 </div>
-                                <div class="col form-control-right">
+                                <div class="col-12 form-control-right">
                                     <div class="right-header">
                                         <h3>Web</h3>
                                     </div>
@@ -457,7 +464,7 @@
 
         function setup_for_width() {
             var element = document.documentElement.clientWidth;
-            if (element <= 320) {
+            if (element <= 767) {
                 showDivs(slideIndex);
             }
             else {
